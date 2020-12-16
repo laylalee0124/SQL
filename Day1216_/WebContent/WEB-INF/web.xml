@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>Day1216_</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  	<!-- 예전에 쓰던방식 -->
+	<!-- xml에 서블릿 클래스 등록 -->
+	<!-- <servlet>
+		서블릿 이름설정
+		<servlet-name>MemberController</servlet-name>
+		서블릿 클래스의 경로 지정 : url pattern으로 받아들인 정보를 아래클래스에서 처리하겠다는 것
+		<servlet-class>Controller.MemberController</servlet-class>
+	</servlet>
+	
+	
+	<servlet-mapping>
+	지정한 url-pattern으로 받아들여진 정보를 servelet name으로 처리하겠다는 의미
+		<servlet-name>MemberController</servlet-name>
+		받아들일 url-pattern을 정해줌. 아래는 확장자가 .me 인 요청 주소를 받아들이겟다는것.
+		<url-pattern>*.me</url-pattern>	
+	</servlet-mapping> -->
+	
+	
+	
+</web-app>
